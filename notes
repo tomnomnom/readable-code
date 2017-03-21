@@ -1,0 +1,44 @@
+Most of us read code more often than we write it, but most tutorials focus on the latter. Tom Hudson, Lead Software Engineer at Sky Betting & Gaming, shares some tips for writing code optimized for the reader - and some tricks for reading code that isn't.
+
+* File and folder structure
+* Line length
+* Global coding style
+* Tooling
+* Return early
+* Consistent naming
+    * Including casing!
+* Name stuttering and repetition (Java example)
+* Deep nesting
+* Comment on the why not the how (stating how is repetetive)
+    * Unless the how is not obvious
+    * Document decisions
+* Docs should live with the code
+* Abstraction can be bad. State everything the reader needs in order to form a mental model together
+    * Unit tests example where there's a constant and a concat used for a string literal - there was a blog post about it somewhere
+* DRY isn't always right
+    * Prefer repetition over a leaky abstraction (or the wrong abstraction)
+* Link to prose for style
+
+* Knuth's literate coding as the other extreme
+* Readable code is more secure 
+
+* Write comments that explain your domain, not the language.
+    * Your docs probably suck, but most languages have great docs
+    * New starters may know the language, but not your domain
+
+* Abstraction trades an increase in real complexity for a decrease in perceived complexity.  That isn't always a win.
+    * https://twitter.com/ID_AA_Carmack/status/835164026984243201
+
+* http://blog.felipe.rs/2017/02/25/id-software-programming-principles/
+    * Write your code for this game only - not for a future game. You’re going to be writing new code later because you’ll be smarter.
+
+* "Programs are meant to be read by humans and only incidentally for computers to execute." – Donald Knuth
+
+* An hourglass has more moving parts than a complicated wristwatch.
+    * https://www.reddit.com/r/Showerthoughts/comments/5wtcr9/an_hourglass_has_more_moving_parts_than_a/
+
+* https://spin.atomicobject.com/2017/03/07/attitudes-maintainable-code/
+    * Brian Kernighan said it best: Everyone knows that debugging is twice as hard as writing a program in the first place. So if you’re as clever as you can be when you write it, how will you ever debug it?
+
+* haynes manuals are hard to read
+* be honest about what you're doing

@@ -1,0 +1,20 @@
+// "Programs are meant to be read by humans and only incidentally for computers to execute."
+//     - Donald Knuth
+
+The purpose of wc is to count lines, words, and/or characters in a list of files. The
+number of lines in a file is ......../more explanations/
+
+Here, then, is an overview of the file wc.c that is defined by the noweb program wc.nw:
+    <<*>>=
+    <<Header files to include>>
+    <<Definitions>>
+    <<Global variables>>
+    <<Functions>>
+    <<The main program>>
+    @
+
+We must include the standard I/O definitions, since we want to send formatted output
+to stdout and stderr.
+    <<Header files to include>>=
+    #include <stdio.h>
+    @
