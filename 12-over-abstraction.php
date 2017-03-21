@@ -22,3 +22,4 @@ class DBModel extends AbstractModel {}
 abstract class AbstractModel {}
 
 // Have you ever used a Haynes manual?
+// This can help: github.com/tomnomnom/flatclass 
