@@ -1,6 +1,6 @@
 <?php
-// Abstraction trades an increase in real complexity for a decrease in
-// perceived complexity. That isn't always a win.
+// Abstraction trades an increase in real complexity for a
+// decrease in perceived complexity. That isn't always a win.
 //     - John Carmack 
 
 // If this doesn't work...
