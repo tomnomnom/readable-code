@@ -1,13 +1,10 @@
-package user
+// Be consistent with your casing too
+package main
 
 func GetUser(userID int) {
 	// ...
 }
 
-func DeleteUser(userId int) {
+func DeletePage(pageId int) {
 	// ...
-}
-
-func main() {
-
 }

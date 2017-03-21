@@ -1,3 +1,4 @@
+// Comment the 'why', not the 'how'
 package main
 
 // quoteString takes a string and returns a quoted and

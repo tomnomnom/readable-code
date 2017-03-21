@@ -19,6 +19,7 @@ function render($template, $params = []){
 
 
 function render($template, $params = []){
+
     $path = "{$template}.php";
     if (!is_readable($path)){
         return false;

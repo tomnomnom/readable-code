@@ -1,4 +1,5 @@
 <?php
+// I'm sorry, did I stutter?
 
 class UrlFetcher {
     public static function fetchUrl($url){

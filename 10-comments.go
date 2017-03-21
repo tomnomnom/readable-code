@@ -1,3 +1,4 @@
+// Comments don't have to be terse.
 package main
 
 // Fields splits the string s around each instance of one or more consecutive white space

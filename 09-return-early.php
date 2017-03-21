@@ -1,4 +1,5 @@
 <?php
+// Try to return early
 
 function editPage($pageId) {
     if (isset($_SESSION['user'])) {
