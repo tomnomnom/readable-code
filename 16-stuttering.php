@@ -9,3 +9,5 @@ class UrlFetcher {
 
 // I think there might be a URL involved somehow...
 $response = UrlFetcher::fetchUrl($url);
+
+// Most people subvocalize when they read

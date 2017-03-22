@@ -18,3 +18,5 @@ function editPage($pageId) {
     // ...
     return true;
 }
+
+// Split up the mental model

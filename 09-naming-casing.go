@@ -8,3 +8,5 @@ func GetUser(userID int) {
 func DeletePage(pageId int) {
 	// ...
 }
+
+// Capitalise initialisms :)
