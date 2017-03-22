@@ -7,3 +7,5 @@ package main
 func Fields(s string) []string {
 	return FieldsFunc(s, unicode.IsSpace)
 }
+
+// Docs should live with the code.
