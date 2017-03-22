@@ -1,5 +1,5 @@
 <?php
-// Try to return early
+// Nest nest nest nest...
 
 function editPage($pageId) {
     if (isset($_SESSION['user'])) {
@@ -23,20 +23,3 @@ function editPage($pageId) {
     }
 }
 
-function editPage($pageId) {
-    if (!isset($_SESSION['user'])) {
-        return false;
-    }
-
-    if (!isAdmin($_SESSION['user'])) {
-        return false;
-    }
-
-    if (!pageExists($pageId)) {
-        return false;
-    }
-
-    // Page edit logic
-    // ...
-    return true;
-}

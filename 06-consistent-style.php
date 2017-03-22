@@ -1,6 +1,5 @@
 <?php
 // Be consistent with your style
-
 function createp($id) {
 	if (pexits($id)) return false;
 	// ...
