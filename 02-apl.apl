@@ -1,4 +1,1 @@
-txt←'<nowiki><html><body><p>This is <em>emphasized</em> text.</p></body></html></nowiki>'
-⎕←{⍵/⍨~{⍵∨≠\⍵}⍵∊'<>'}txt
-
-⍝ Output: This is emphasized text
+l←{↑1 ⍵∨.∧3 4=+/,¯1 0 1∘.⊖¯1 0 1∘.⌽⊂⍵}
