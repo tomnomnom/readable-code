@@ -1,5 +1,5 @@
 <?php
-
+// Paragraphs
 function render($template, $params = []){
 
     $path = "{$template}.php";

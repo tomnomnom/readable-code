@@ -1,5 +1,5 @@
 <?php
-
+// WOT
 function render($template, $params = []){
     $path = "{$template}.php";
     if (!is_readable($path)){
@@ -16,5 +16,4 @@ function render($template, $params = []){
     include $path;
     return true;
 }
-
 
